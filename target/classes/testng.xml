@@ -1,0 +1,16 @@
+<suite name="actiTIME Test for automation test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="actiTIME application test">
+		<classes>
+			<class name="com.qa.TestCases.LoginPageTest" />
+			<class name="com.qa.TestCases.HomePageTest" />
+			<class name="com.qa.TestCases.TasksPageTest" />
+		</classes>
+	</test>
+</suite>		
+	

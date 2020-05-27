@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [actiTIME Test for automation test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="actiTIME application test(failed)">
+    <classes>
+      <class name="com.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.HomePageTest -->
+      <class name="com.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.LoginPageTest -->
+      <class name="com.qa.TestCases.TasksPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.TasksPageTest -->
+    </classes>
+  </test> <!-- actiTIME application test(failed) -->
+</suite> <!-- Failed suite [actiTIME Test for automation test Suite] -->
