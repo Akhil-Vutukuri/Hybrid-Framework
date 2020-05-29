@@ -1,9 +1,9 @@
 <suite name="actiTIME Test for automation test Suite">
 
-	<listeners>
+	<!-- <listeners>
 		<listener
 			class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
-	</listeners>
+	</listeners> -->
 
 	<test name="actiTIME application test">
 		<classes>
